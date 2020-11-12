@@ -23,3 +23,4 @@ class Main {
      }
   } //End bracket don't worry 
 } //End bracket don't worry
+//I tried to make this interactive, as if this was a real story, and not just, put 15 seats. For example, I said that the teacher needs your help, and she needs hel
