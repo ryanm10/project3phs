@@ -12,8 +12,8 @@ class Main {
       System.out.println("Welcome! To begin, as you know it's the first day of school. (Yay!) As a way to help, please give 15 names, so it can be easier to assign a student to a seat, as I'm confused. Thank you!"); //This is where they will have to enter in 15 names from here, and then their input will be recieved. It's meant to be a nice little introduction, so they understand what to do and the story behind it. 
       for(int x = 0; x < 15; x++)
      {
-         String name = reader.nextLine();
-         newNames[x] = name;
+         String temp = reader.nextLine();
+         newNames[x] = temp;
      }
      int i = 0; 
      System.out.println("Well, thank you! Here is assigned seats chart, you made for me: "); //Printing out the assigned chart, after the user gives in 15 different names.
